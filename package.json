@@ -8,6 +8,14 @@
     "lib",
     "dist"
   ],
+  "koishi": {
+    "preview": true,
+    "service": {
+      "optional": [
+        "k2d"
+      ]
+    }
+  },
   "license": "MIT",
   "scripts": {},
   "keywords": [
@@ -17,5 +25,8 @@
   ],
   "peerDependencies": {
     "koishi": "^4.13.8"
+  },
+  "dependencies": {
+    "koishi-plugin-k2s": "^0.2.1"
   }
 }
