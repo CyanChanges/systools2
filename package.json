@@ -23,6 +23,9 @@
     "koishi",
     "plugin"
   ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "peerDependencies": {
     "koishi": "^4.13.8"
   },
